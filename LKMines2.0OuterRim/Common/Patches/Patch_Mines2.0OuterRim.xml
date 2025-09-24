@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>	
    	
-  <!-- Star Wars Outer Rim Core -->		
+ <!-- Star Wars Outer Rim Core -->		
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="OuterRim_Tibanna"]</xpath>
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -19,7 +19,7 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -31,7 +31,7 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -43,7 +43,7 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -55,7 +55,7 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -67,7 +67,7 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -79,7 +79,7 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -91,7 +91,7 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
@@ -103,13 +103,14 @@
       <value>
         <li Class="MinesAutomatedExtension.MineableSettings">
     <researchPrerequisites>
-        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+        <li>OuterRim_HypertechFabrication</li>
     </researchPrerequisites>
     <workOffset>200</workOffset>
     <mineableYield>10</mineableYield>
 </li>
       </value>
-  </Operation>			
+  </Operation>		
   
 
 </Patch>
+
